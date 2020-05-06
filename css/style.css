@@ -5,6 +5,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --secondary-black-color: #000000;
+    --color-social-links: #AFB1B8;
 }
 
 /* Оформление фона и основного текста */
@@ -57,3 +58,36 @@ body {
   background-color: var(--accent-color);
 }
 
+/* Оформление секций */
+.section-title {
+    color: var(--primary-text-color);
+}
+.feature-list-title {
+    color: var(--primary-text-color);
+}
+.feature-list-text {
+    color: var(--secondary-text-color);
+}
+.main-activity-text {
+    color: var(--primary-white-color);
+}
+.name {
+    color: var(--primary-text-color);
+}
+.specialty {
+    color: var(--secondary-text-color);
+}
+.social-links {
+    color: var(--color-social-links);
+}
+.social-links:hover,
+.social-links:focus {
+  color: var(--accent-color);
+}
+/* Оформление футера */
+.address-container {
+    color: var(--primary-white-color);
+}
+.address-container-link {
+    color: rgba(255, 255, 255, 0.6);
+}
