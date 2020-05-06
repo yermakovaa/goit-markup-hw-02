@@ -1,0 +1,39 @@
+/* Палитра цветов */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-black-color: #000000;
+}
+
+/* Оформление фона и основного текста */
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+/* Оформление логотипа */
+.logo {
+    color: var(--secondary-black-color);
+}
+.logo-web {
+    color: var(--accent-color)
+}
+
+/* Оформление навигации */
+.list {
+  list-style: none;
+}
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Оформление контактов в шапке */
+
