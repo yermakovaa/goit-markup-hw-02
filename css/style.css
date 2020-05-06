@@ -36,4 +36,24 @@ body {
   color: var(--accent-color);
 }
 /* Оформление контактов в шапке */
+.contacts-link {
+    color: var(--secondary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+/* Оформление героя */
+.hero-title {
+  color: var(--primary-white-color);
+}
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 
