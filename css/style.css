@@ -91,3 +91,9 @@ body {
 .address-container-link {
     color: rgba(255, 255, 255, 0.6);
 }
+.call {
+    color: var(--primary-white-color);
+}
+.copy-right {
+    color: rgba(255, 255, 255, 0.4);
+}
