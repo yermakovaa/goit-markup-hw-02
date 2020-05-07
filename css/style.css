@@ -5,7 +5,6 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --secondary-black-color: #000000;
-    --color-social-links: #AFB1B8;
 }
 
 /* Оформление фона и основного текста */
@@ -37,11 +36,11 @@ body {
   color: var(--accent-color);
 }
 /* Оформление контактов в шапке */
-.contacts-link {
+.contacts-link-item {
     color: var(--secondary-text-color);
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link-item:hover,
+.contacts-link-item:focus {
     color: var(--accent-color);
 }
 /* Оформление героя */
@@ -65,10 +64,10 @@ body {
 .feature-list-title {
     color: var(--primary-text-color);
 }
-.feature-list-text {
+.feature-list-item {
     color: var(--secondary-text-color);
 }
-.main-activity-text {
+.main-activity-item {
     color: var(--primary-white-color);
 }
 .name {
@@ -78,7 +77,7 @@ body {
     color: var(--secondary-text-color);
 }
 .social-links {
-    color: var(--color-social-links);
+    color: #AFB1B8;
 }
 .social-links:hover,
 .social-links:focus {
@@ -94,6 +93,23 @@ body {
 .call {
     color: var(--primary-white-color);
 }
-.copy-right {
+.copyright {
     color: rgba(255, 255, 255, 0.4);
+}
+
+/* Оформление Портфолио */
+.filter-item {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+.filter-item:hover,
+.filter-item:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.name-project {
+    color: var(--primary-text-color);
+}
+.project-item {
+    color: var(--secondary-text-color)
 }
