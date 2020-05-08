@@ -136,6 +136,7 @@ body {
 }
 .social-links {
     color: #AFB1B8;
+    text-decoration: none;
 }
 .social-links:hover,
 .social-links:focus {
@@ -172,6 +173,12 @@ body {
 .filter-item {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    border-style: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 .filter-item:hover,
 .filter-item:focus {
@@ -180,7 +187,23 @@ body {
 }
 .name-project {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-link {
+    text-decoration: none;
 }
 .project-item {
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+.project-text {
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
 }
