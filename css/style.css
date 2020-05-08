@@ -9,16 +9,34 @@
 
 /* Оформление фона и основного текста */
 body {
-    background-color: var(--primary-white-color);
+    /* background-color: var(--primary-white-color); */
+    background-color: thistle;
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 /* Оформление логотипа */
 .logo {
     color: var(--secondary-black-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .logo-web {
     color: var(--accent-color)
+}
+.footer-logo {
+    color: var(--secondary-black-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+    text-decoration: none;
 }
 
 /* Оформление навигации */
@@ -27,6 +45,11 @@ body {
 }
 .site-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -38,6 +61,12 @@ body {
 /* Оформление контактов в шапке */
 .contacts-link-item {
     color: var(--secondary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts-link-item:hover,
 .contacts-link-item:focus {
@@ -45,56 +74,98 @@ body {
 }
 /* Оформление героя */
 .hero-title {
-  color: var(--primary-white-color);
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-decoration: none;
 }
 
 .button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 /* Оформление секций */
 .section-title {
-    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 .feature-list-title {
-    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 .feature-list-item {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .main-activity-item {
     color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 .name {
-    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 .specialty {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 }
 .social-links {
     color: #AFB1B8;
 }
 .social-links:hover,
 .social-links:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 /* Оформление футера */
 .address-container {
     color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address-container-link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .call {
     color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 .copyright {
     color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
 }
 
 /* Оформление Портфолио */
